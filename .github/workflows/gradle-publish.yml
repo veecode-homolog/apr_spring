@@ -111,7 +111,7 @@ jobs:
           source_file: 'config/'
           destination_repo: veecode-platform/argocd-repository
           destination_folder: '/config/'
-          destination_branch: 'master'
+          destination_branch: 'apr'
           user_email: 'veecode-bot@vee.codes'
           user_name: 'veecode-bot'
           commit_message: 'Configuring apr_spring argocd application'
