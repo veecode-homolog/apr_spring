@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  apr_spring:
+    container_name: apr_spring 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
